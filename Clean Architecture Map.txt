@@ -1,0 +1,39 @@
+project/
+|
+|
+|--src/
+|  |-- core/
+|  |   |-- __init__.py
+|  |   |-- entites/
+|  |   |-- use_cases/
+|  |
+|  |
+|  |
+|  |-- adapters/
+|  |   |-- __init__.py
+|  |   |-- repositories/
+|  |   |-- controllers/
+|  |   |-- services/
+|  |
+|  |
+|  |
+|  |-- infrastrucre/
+|      |-- __init__.py
+|      |-- database/
+|      |   |-- file/
+|      |   |   |-- database.db
+|      |   |   
+|      |   |-- models/
+|      |   |   |-- user_model.py
+|      |   |   |-- reserve_model.py 
+|      |   |  
+|      |-- api/
+|      |   |-- routes.py
+|      |   
+|      |-- config.py
+|      |-- app.py
+|   
+|-- tests/
+|
+|-- venv/
+
