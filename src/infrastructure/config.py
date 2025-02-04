@@ -2,7 +2,10 @@ from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 import os
 
-app = Flask(__name__)
+app = Flask(__name__
+        template_folder='infrastructure/templates',
+        static_folder='infrastructure/static'    
+            )
 db = SQLAlchemy()
 
 

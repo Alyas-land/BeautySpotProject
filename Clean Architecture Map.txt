@@ -23,9 +23,8 @@ project/
 |      |   |-- file/
 |      |   |   |-- database.db
 |      |   |   
-|      |   |-- models/
-|      |   |   |-- user_model.py
-|      |   |   |-- reserve_model.py 
+|      |   |-- models.py
+|      |   |    
 |      |   |  
 |      |-- api/
 |      |   |-- routes.py
